@@ -2,14 +2,13 @@
 
 pipeLine {
     agent any
-    stages{
+    stages {
         stage("Hello World") {
-            steps{
-                script{
+            steps {
+                script {
                     hello.world()
                 }
             }
-            
         }
     }
 }
